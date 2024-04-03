@@ -1,5 +1,7 @@
+/*Global Style*/
 body{
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 a{
@@ -17,7 +19,7 @@ a:hover{
 }
 
 .nav-menu{
-    background: blue;
+    background: #666;
 }
 
 .list-menu{
@@ -29,3 +31,182 @@ a:hover{
 .btn-primary{
     padding: 15px 0px;
 }
+
+.primary-color{
+    color: red;
+}
+
+.table-responsive{
+    border-collapse: collapse;
+    width: 100%;
+    th, td{
+        border: 1px solid #dedede;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/*Font*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/*Section Hero*/
+.section-hero{
+    /* background: orange; */
+    background: url(assets/benjamin-voros-phIFdC6lA4E-unsplash\(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    .caption{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0px 80px;
+        justify-content: center;
+        text-align: center;
+        color: #fff; 
+    }
+}
+
+/*section media*/
+.section-media{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    .media-image{
+        img{
+            width: 100%;
+        }
+    }
+
+    .media-video{
+        width: 500px;
+    }
+}
+
+/*section-news*/
+.section-news{
+    padding: 50px;
+    .content-text{
+        column-count: 3;
+        column-gap: 30px;
+        column-width: 200px;
+        p{
+            margin: 0;
+        }
+    }
+
+    .list-content{
+        li{
+            list-style: none;
+            color: #dedede;
+        }
+    }
+}
+
+
